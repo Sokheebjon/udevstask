@@ -1,0 +1,78 @@
+.usefulLinks {
+    padding: 72px 0 0 0;
+}
+
+.header {
+    font-family: TT Commons, sans-serif, "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans Cherokee", "Noto Sans Devanagari", "Noto Sans Ethiopic", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai";
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.img {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.nameHead {
+    margin-top: 20px;
+}
+
+
+.lined, .underlined {
+    margin-top: 8px;
+}
+
+.underlined {
+    color: #2787f5;
+}
+
+.link:hover .underlined {
+    text-decoration: underline;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover .nameHead + .lined {
+    color: #2787f5;
+}
+
+.footer {
+    padding: 20px 0;
+    margin-top: 60px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footerLinks {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Open Sans, Helvetica Neue, sans-serif, "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans Cherokee", "Noto Sans Devanagari", "Noto Sans Ethiopic", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai";
+    text-decoration: none;
+    margin-right: 36px;
+    font-size: 16px;
+    color: #0a0a0a;
+}
+
+.footerLinks:hover {
+    color: #2787f5;
+    text-decoration: underline;
+}
+
+.language {
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Open Sans, Helvetica Neue, sans-serif, "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans Cherokee", "Noto Sans Devanagari", "Noto Sans Ethiopic", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai";
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.language:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,118 @@
+.navbar {
+    width: 100%;
+    padding: 5px;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.navbar .navbarContainer {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navCategory {
+    display: flex;
+    margin: 0 auto 0 auto;
+    padding: 12px 0 5px 0;
+
+
+}
+
+.navCategory li a, .navbarToggler li a {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", "Helvetica Neue", sans-serif, "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans Cherokee", "Noto Sans Devanagari", "Noto Sans Ethiopic", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai";
+    text-decoration: none;
+    font-size: 20px;
+    color: #656565;
+
+}
+
+.navCategory li, .navbarToggler li {
+    margin: 0 24px;
+    padding-bottom: 7px;
+    border-bottom: 2px solid transparent;
+
+}
+
+.navCategory li:hover {
+    border-bottom: 2px solid rgba(101, 101, 101, 0.6);
+}
+
+.active a {
+    color: black !important;
+}
+
+.active {
+    border-bottom: 2px solid #5757fe !important;
+}
+
+.collapse {
+    width: 100%;
+    display: flex;
+}
+
+.signUp {
+    text-decoration: none;
+    font-size: 20px;
+    color: #4277ff;
+    margin: 10px 0 10px 0;
+}
+
+.btn {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline-color: white;
+}
+
+.navbarToggler {
+    width: 100%;
+    height: 100vh;
+    background-color: #4277ff;
+    position: absolute;
+    top: 58px;
+    right: 0;
+    padding-top: 50px;
+    opacity: 0;
+    transition: 0.5s ease-in;
+    z-index: 100;
+}
+
+.navbarToggler li:hover {
+    border-bottom: 2px solid #fff !important;
+}
+
+.navbarToggler.open {
+    opacity: 1;
+}
+
+.navbarToggler li {
+    margin-bottom: 20px;
+}
+
+.collapsed {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+.signUpMini {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    margin: 10px;
+
+}
+
+.collapsed a {
+    color: #fff !important;
+}
+
+

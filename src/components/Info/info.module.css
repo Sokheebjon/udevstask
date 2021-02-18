@@ -1,0 +1,50 @@
+.Info {
+    width: 100%;
+    /*height: 100vh;*/
+    padding-top: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-image: linear-gradient(to bottom, rgba(245, 245, 245, 0), rgba(245, 245, 245, .02) 9%, rgba(245, 245, 245, .06) 19%, rgba(245, 245, 245, .12) 28%, rgba(245, 245, 245, .2) 38%, rgba(245, 245, 245, .29) 48%, rgba(245, 245, 245, .39) 57%, rgba(245, 245, 245, .5) 66%, rgba(245, 245, 245, .61) 74%, rgba(245, 245, 245, .71) 81%, rgba(245, 245, 245, .8) 88%, rgba(245, 245, 245, .88) 93%, rgba(245, 245, 245, .95) 97%, rgba(245, 245, 245, .98) 99%, #f5f5f5);
+}
+
+.weconnect {
+    background-color: rgba(73, 134, 204, .08);
+    width: 300px;
+}
+
+.weconnect h1 {
+    color: #2787f5;
+    font-size: 60px !important;
+    font-weight: 600 !important;
+}
+
+.pep {
+    width: 400px;
+    font-size: 60px !important;
+    font-weight: 600 !important;
+    padding-bottom: 80px;
+}
+
+
+
+.parag {
+    /*width: 570px;*/
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Open Sans, Helvetica Neue, sans-serif, "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans Cherokee", "Noto Sans Devanagari", "Noto Sans Ethiopic", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai";
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.card p {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Open Sans, Helvetica Neue, sans-serif, "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans Cherokee", "Noto Sans Devanagari", "Noto Sans Ethiopic", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai";
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.card h1 {
+    font-family: TT Commons, sans-serif, "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans Cherokee", "Noto Sans Devanagari", "Noto Sans Ethiopic", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai";
+    font-size: 60px;
+    font-weight: 600;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    line-height: 1.5;
+}
